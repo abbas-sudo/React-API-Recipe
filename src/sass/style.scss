@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+$font-content: 'Poppins', sans-serif;
+
+
+//==============Hero-Section=============
+
+body{
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
+
+.banner {
+    //linear-gradient(to left, rgba(0, 0, 0, 0.5)),
+    height: 92vh;
+    color: white;
+    background-image:  url('../image/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .hero-text {
+        width: 480px;
+        position: absolute;
+        top: 30%;
+        left: 60%;
+
+        h1 {
+            font-family: $font-content;
+            font-size: 55px;
+            font-weight: 700;
+        }
+
+        p {
+            font-family: $font-content;
+            margin-top: 20px;
+        }
+
+       form input{
+           width: 300px;
+           margin-right: 10px;
+           padding: 7px;
+           border-radius: 10px;
+       }
+       button{
+        padding: 7px;
+        border-radius: 10px;
+        width: 100px;
+        background-color: red;
+       }
+    }
+}
+
+.navbar .nav-item{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.featured {
+    margin-left: 100px;
+    width: 100%;
+    img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+// =============================Media-Queries=======================
+
+@media only screen and (max-width: 600px) {
+
+    .featured {
+        margin-left: 0px!important;
+        width: 100%;
+        img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+    .banner {
+        height: 50vh;
+        color: white;
+        // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url('/image/hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .hero-text {
+            width: 100%;
+            position: absolute;
+            top: 18%;
+            left: 0%;
+
+            h1 {
+                font-family: $font-content;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 10px;
+                text-align: center;
+            }
+
+            form {
+
+                width: 50%;
+                margin: auto;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+}
