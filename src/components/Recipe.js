@@ -3,8 +3,8 @@ import React from 'react'
 const Recipe= ({title,calories,image}) => {
     return(
     
-        <div className="col-lg-4 col-sm-3">
-        <div className="card" style={{width: '18rem'}}>
+        <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div className="card my-2" style={{width: '18rem'}}>
         <img src={image} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title"> {title} </h5>
