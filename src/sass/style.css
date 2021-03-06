@@ -32,20 +32,6 @@ body {
   margin-top: 20px;
 }
 
-.banner .hero-text form input {
-  width: 300px;
-  margin-right: 10px;
-  padding: 7px;
-  border-radius: 10px;
-}
-
-.banner .hero-text button {
-  padding: 7px;
-  border-radius: 10px;
-  width: 100px;
-  background-color: red;
-}
-
 .navbar .nav-item {
   margin-left: 20px;
   font-weight: bold;
@@ -62,7 +48,7 @@ body {
   height: 200px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 360px) {
   .featured .featured {
     margin-left: 0px !important;
     width: 100%;
