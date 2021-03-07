@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-API-Recipe/static/css/main.97c49caa.chunk.css",
+    "main.js": "/React-API-Recipe/static/js/main.7ebf1467.chunk.js",
+    "main.js.map": "/React-API-Recipe/static/js/main.7ebf1467.chunk.js.map",
+    "runtime-main.js": "/React-API-Recipe/static/js/runtime-main.c9bf7d57.js",
+    "runtime-main.js.map": "/React-API-Recipe/static/js/runtime-main.c9bf7d57.js.map",
+    "static/js/2.054f650f.chunk.js": "/React-API-Recipe/static/js/2.054f650f.chunk.js",
+    "static/js/2.054f650f.chunk.js.map": "/React-API-Recipe/static/js/2.054f650f.chunk.js.map",
+    "static/js/3.4dcbeba2.chunk.js": "/React-API-Recipe/static/js/3.4dcbeba2.chunk.js",
+    "static/js/3.4dcbeba2.chunk.js.map": "/React-API-Recipe/static/js/3.4dcbeba2.chunk.js.map",
+    "index.html": "/React-API-Recipe/index.html",
+    "static/css/main.97c49caa.chunk.css.map": "/React-API-Recipe/static/css/main.97c49caa.chunk.css.map",
+    "static/js/2.054f650f.chunk.js.LICENSE.txt": "/React-API-Recipe/static/js/2.054f650f.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/React-API-Recipe/static/media/hero.975f2d30.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9bf7d57.js",
+    "static/js/2.054f650f.chunk.js",
+    "static/css/main.97c49caa.chunk.css",
+    "static/js/main.7ebf1467.chunk.js"
+  ]
+}
