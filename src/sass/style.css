@@ -48,39 +48,56 @@ body {
   height: 200px;
 }
 
+.searchForm {
+  margin-left: 450px;
+}
+
+.compButton {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: #0d6efd;
+  color: white;
+}
+
 @media only screen and (max-width: 360px) {
-  .featured .featured {
+  .featured {
     margin-left: 0px !important;
     width: 100%;
   }
-  .featured .featured img {
+  .featured img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
   }
-  .featured .banner {
+  .banner {
     height: 50vh;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-  .featured .banner .hero-text {
+  .banner .hero-text {
     width: 100%;
     position: absolute;
     top: 18%;
     left: 0%;
   }
-  .featured .banner .hero-text h1 {
+  .banner .hero-text h1 {
     font-family: "Poppins", sans-serif;
     font-size: 25px;
     text-align: center;
   }
-  .featured .banner .hero-text p {
+  .banner .hero-text p {
     font-size: 10px;
     text-align: center;
   }
-  .featured .banner .hero-text form {
+  .banner .hero-text form {
     width: 50%;
     margin: auto;
     margin-top: 15px;
