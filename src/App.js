@@ -1,4 +1,3 @@
-import './App.css';
 import '../src/sass/style.css';
 import React from 'react'
 import Navbar from "./components/Navbar"
